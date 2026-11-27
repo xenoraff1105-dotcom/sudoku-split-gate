@@ -1,0 +1,105 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "sudoku_10seeds/sudoku_10seeds.ipynb": {
+      "original_sha256": "fee254d1f669669cadb79a6b22075a222c8aa816973a309032311c23fe4ecaba",
+      "published_sha256": "8c2882e233fcf20cc85935a0f55f02b353d8fa3bf1af53986af09547470c6314",
+      "removed_execution_metadata_counts": {
+        "user": 25,
+        "user_tz": 25
+      }
+    },
+    "sudoku_10seeds/sudoku_10seeds_analysis.py": {
+      "original_sha256": "f9e4e472e327a9539c1dc5d6cd36f82f285c60bffa2936b16dea138e9caf8cda",
+      "published_sha256": "f9e4e472e327a9539c1dc5d6cd36f82f285c60bffa2936b16dea138e9caf8cda"
+    },
+    "sudoku_10seeds/sudoku_10seeds_effects.png": {
+      "original_sha256": "cdccb04f39640e82aa935dbfbfa5c56e41ab82da78a287e37a2152b6b3f231ed",
+      "published_sha256": "cdccb04f39640e82aa935dbfbfa5c56e41ab82da78a287e37a2152b6b3f231ed"
+    },
+    "sudoku_10seeds/sudoku_10seeds_metrics.csv": {
+      "original_sha256": "2bc93d2acef12f688c9e0454add7d5e11ad5b43e426eabecd0921859c53c064d",
+      "published_sha256": "2bc93d2acef12f688c9e0454add7d5e11ad5b43e426eabecd0921859c53c064d"
+    },
+    "sudoku_10seeds/sudoku_10seeds_precision_check.json": {
+      "original_sha256": "9f402dd5e56abe73a6f582a1b6936de1f9c954b5830b0e259e0791e852a93feb",
+      "published_sha256": "9f402dd5e56abe73a6f582a1b6936de1f9c954b5830b0e259e0791e852a93feb"
+    },
+    "sudoku_10seeds/sudoku_10seeds_predictions.npz": {
+      "original_sha256": "795755847f58d81b2599eaa079771ff37ae421a3e4289f8d2de9be9f4c2a672f",
+      "published_sha256": "795755847f58d81b2599eaa079771ff37ae421a3e4289f8d2de9be9f4c2a672f"
+    },
+    "sudoku_10seeds/sudoku_10seeds_report.md": {
+      "original_sha256": "f3b126c5a2db48eec541f605905f7cf6b40b1666f611aa366691f406a6fff4d1",
+      "published_sha256": "f3b126c5a2db48eec541f605905f7cf6b40b1666f611aa366691f406a6fff4d1"
+    },
+    "sudoku_10seeds/sudoku_10seeds_summary.json": {
+      "original_sha256": "07f7eea988f947e2cab320de0f11a07cda1d2fdc2b17b906fcea1bc8692990b9",
+      "published_sha256": "07f7eea988f947e2cab320de0f11a07cda1d2fdc2b17b906fcea1bc8692990b9"
+    },
+    "sudoku_10seeds/sudoku_10seeds_weights.zip": {
+      "original_sha256": "6f470d2e03abb41034f7ae7cbc4f8286e819d8099db14170ad1c90dca1f9a8a8",
+      "published_sha256": "6f470d2e03abb41034f7ae7cbc4f8286e819d8099db14170ad1c90dca1f9a8a8"
+    },
+    "sudoku_formal_metrics.csv": {
+      "original_sha256": "693e0b747ec847c5414ad8f3636935697037c74fac7944bf99f1cdef5d1ac74b",
+      "published_sha256": "693e0b747ec847c5414ad8f3636935697037c74fac7944bf99f1cdef5d1ac74b"
+    },
+    "sudoku_formal_results.json": {
+      "original_sha256": "b38825f4a618f863b7d9ebfef234e36392bee4274722a6c4abffbcf329d65343",
+      "published_sha256": "b38825f4a618f863b7d9ebfef234e36392bee4274722a6c4abffbcf329d65343"
+    },
+    "sudoku_gate_formal.ipynb": {
+      "original_sha256": "3f32ee0790347f7306078c01ca6e48062f2a0e1f07e6a1f8f250d94644032e70",
+      "published_sha256": "e75f1c35f096810b1013219d24dc8f413908e363897927855d8dc4432260706f",
+      "removed_execution_metadata_counts": {
+        "user": 8,
+        "user_tz": 8
+      }
+    },
+    "sudoku_gate_pilot.ipynb": {
+      "original_sha256": "b651396891dd3e35b5a0c0b542314f84e34a652e59d7ab330f1a1209f008c7e2",
+      "published_sha256": "c0d531727f0a294b2a10c998af529fc005a68e66b8523cf16f9384a64d36a9f7",
+      "removed_execution_metadata_counts": {
+        "user": 6,
+        "user_tz": 6
+      }
+    },
+    "sudoku_pilot_results.json": {
+      "original_sha256": "40cad23bb76dda83b4afa02254bb0089e87dc5b96f5507c78f7b44accf19ea8c",
+      "published_sha256": "40cad23bb76dda83b4afa02254bb0089e87dc5b96f5507c78f7b44accf19ea8c"
+    },
+    "sudoku_split_gate_opinion.md": {
+      "original_sha256": "12d3f7708ffa898a239baf2815fede347de504a04e841f5df249263a7bd44cbb",
+      "published_sha256": "12d3f7708ffa898a239baf2815fede347de504a04e841f5df249263a7bd44cbb"
+    },
+    "sudoku_stress/stress_summary.json": {
+      "original_sha256": "59e9e6e1d4b865022d9af566b3d8d2588f2e01fe966553cda3f37538f78655d4",
+      "published_sha256": "59e9e6e1d4b865022d9af566b3d8d2588f2e01fe966553cda3f37538f78655d4"
+    },
+    "sudoku_stress/sudoku_stress.ipynb": {
+      "original_sha256": "d5388deeef988875634c3c8a8f649d286fc584eee0c5fba65096f70de01d73c5",
+      "published_sha256": "e3000eb4aa3764f60deb416bd20157e3afa21561fd39677528aaef7b839e78ab",
+      "removed_execution_metadata_counts": {
+        "user": 21,
+        "user_tz": 21
+      }
+    },
+    "sudoku_stress/sudoku_stress_metrics.csv": {
+      "original_sha256": "10b858ec790abcc7cf90eac2052305c0b73336fcb62753c746e22554832758fc",
+      "published_sha256": "10b858ec790abcc7cf90eac2052305c0b73336fcb62753c746e22554832758fc"
+    },
+    "sudoku_stress/sudoku_stress_predictions.npz": {
+      "original_sha256": "dd3b2ddd798129592dd595b83259a2710f9e3e77efe10d02f35bc74cb257941d",
+      "published_sha256": "dd3b2ddd798129592dd595b83259a2710f9e3e77efe10d02f35bc74cb257941d"
+    },
+    "sudoku_stress/sudoku_stress_trajectory.png": {
+      "original_sha256": "208ed1e2c12571ae00decd8dd10baac2849ed4722f31a958201ddaf9f4eb5ac4",
+      "published_sha256": "208ed1e2c12571ae00decd8dd10baac2849ed4722f31a958201ddaf9f4eb5ac4"
+    },
+    "sudoku_stress/sudoku_stress_weights.zip": {
+      "original_sha256": "ceeb8664c8b2e6baea311501d78763c34575318d58a4994a105a9032e53dadeb",
+      "published_sha256": "ceeb8664c8b2e6baea311501d78763c34575318d58a4994a105a9032e53dadeb"
+    }
+  }
+}

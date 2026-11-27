@@ -1,0 +1,593 @@
+{
+  "status": "complete",
+  "config": {
+    "width": 96,
+    "batch": 64,
+    "train_loops": 8,
+    "pilot_steps": 512,
+    "warmup": 16,
+    "chunk": 16,
+    "formal_steps": 5000,
+    "formal_seeds": 3,
+    "n_train": 2048,
+    "n_val": 256,
+    "n_test": 256,
+    "data_seed": 2026,
+    "seed": 17,
+    "batch_seed": 1027,
+    "lr": 0.001,
+    "eval_reserve_seconds": 90
+  },
+  "gpu": "NVIDIA L4",
+  "torch_version": "2.14.1+cu130",
+  "precision": "torch.bfloat16",
+  "cu_per_hour": 2.33,
+  "arms": {
+    "plain": {
+      "steps": 512,
+      "warmup_seconds": 1.6412199730000054,
+      "timings": [
+        {
+          "seconds": 0.28119161200001486,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27770737599999507,
+          "steps": 16
+        },
+        {
+          "seconds": 0.28648576000000503,
+          "steps": 16
+        },
+        {
+          "seconds": 0.293475170000022,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2773355149999759,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27191447499998844,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2753110859999879,
+          "steps": 16
+        },
+        {
+          "seconds": 0.283633573000003,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27320205800000963,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27909753800000203,
+          "steps": 16
+        },
+        {
+          "seconds": 0.273995296999999,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27611809100000073,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2657384830000069,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2730567530000201,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27785657100000094,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2632045480000045,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2738460420000024,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27840994499999283,
+          "steps": 16
+        },
+        {
+          "seconds": 0.26725350199998843,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2637614850000034,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2744963099999893,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2631384280000191,
+          "steps": 16
+        },
+        {
+          "seconds": 0.26911094599998364,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2746346380000091,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2696304870000006,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2704310739999869,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27523067699999615,
+          "steps": 16
+        },
+        {
+          "seconds": 0.26893966099999034,
+          "steps": 16
+        },
+        {
+          "seconds": 0.2671956069999908,
+          "steps": 16
+        },
+        {
+          "seconds": 0.26710076500000923,
+          "steps": 16
+        },
+        {
+          "seconds": 0.27225793899998507,
+          "steps": 16
+        }
+      ],
+      "params": 79401,
+      "last_loss": 0.16309072077274323,
+      "validation": [
+        {
+          "depth": 8,
+          "blank_acc": 0.9311419665627657,
+          "board_acc": 0.51171875,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 9858,
+          "solved_boards": 131
+        },
+        {
+          "depth": 16,
+          "blank_acc": 0.9499386039482384,
+          "board_acc": 0.68359375,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 10057,
+          "solved_boards": 175,
+          "right_to_wrong": 0.00801379590180564,
+          "wrong_to_right": 0.3813443072702332,
+          "ruined": 79,
+          "initially_right": 9858,
+          "repaired": 278,
+          "initially_wrong": 729
+        },
+        {
+          "depth": 32,
+          "blank_acc": 0.9482384055917635,
+          "board_acc": 0.69140625,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 10039,
+          "solved_boards": 177,
+          "right_to_wrong": 0.010854128626496247,
+          "wrong_to_right": 0.3950617283950617,
+          "ruined": 107,
+          "initially_right": 9858,
+          "repaired": 288,
+          "initially_wrong": 729
+        }
+      ],
+      "eval_seconds": 0.15980747399999018
+    },
+    "full_gate": {
+      "steps": 512,
+      "warmup_seconds": 0.4362563420000072,
+      "timings": [
+        {
+          "seconds": 0.38300134900001126,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3877841240000066,
+          "steps": 16
+        },
+        {
+          "seconds": 0.40823018100002173,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38791440299999635,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37898254300000644,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38039641399998914,
+          "steps": 16
+        },
+        {
+          "seconds": 0.39364943700002186,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37890507899999193,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38530230699998924,
+          "steps": 16
+        },
+        {
+          "seconds": 0.39892436700000644,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38877779700001724,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37726239500000247,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3689664730000004,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37029696599998374,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37362512699999684,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38469304399998805,
+          "steps": 16
+        },
+        {
+          "seconds": 0.36750871699999266,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38228587399999014,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3700383460000012,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3892941560000054,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38278942199997346,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37718059100001256,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37585039699999356,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3706331870000099,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37926257699999155,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38367860500000006,
+          "steps": 16
+        },
+        {
+          "seconds": 0.374950307000006,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38035623000001806,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38454058199999963,
+          "steps": 16
+        },
+        {
+          "seconds": 0.36887509899997895,
+          "steps": 16
+        },
+        {
+          "seconds": 0.36787260400001287,
+          "steps": 16
+        }
+      ],
+      "params": 82697,
+      "last_loss": 0.16515767574310303,
+      "validation": [
+        {
+          "depth": 8,
+          "blank_acc": 0.9354869179182016,
+          "board_acc": 0.5234375,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 9904,
+          "solved_boards": 134
+        },
+        {
+          "depth": 16,
+          "blank_acc": 0.9623122697648059,
+          "board_acc": 0.75,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 10188,
+          "solved_boards": 192,
+          "right_to_wrong": 0.006260096930533118,
+          "wrong_to_right": 0.5065885797950219,
+          "ruined": 62,
+          "initially_right": 9904,
+          "repaired": 346,
+          "initially_wrong": 683
+        },
+        {
+          "depth": 32,
+          "blank_acc": 0.9661849437989988,
+          "board_acc": 0.796875,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 10229,
+          "solved_boards": 204,
+          "right_to_wrong": 0.006865912762520194,
+          "wrong_to_right": 0.575402635431918,
+          "ruined": 68,
+          "initially_right": 9904,
+          "repaired": 393,
+          "initially_wrong": 683
+        }
+      ],
+      "eval_seconds": 0.1080384830000014
+    },
+    "split_gate": {
+      "steps": 512,
+      "warmup_seconds": 0.3868663640000136,
+      "timings": [
+        {
+          "seconds": 0.3833695470000009,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3805862270000091,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38622056999997767,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3832743549999975,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38549962199999754,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3886594280000111,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38046576299998947,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37503834899999333,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3861310919999994,
+          "steps": 16
+        },
+        {
+          "seconds": 0.39062792699999704,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37566669299999944,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37266502200000673,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3815897690000156,
+          "steps": 16
+        },
+        {
+          "seconds": 0.36861003500001743,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38745375700000295,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37707310300001495,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37782614999997577,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3739773830000104,
+          "steps": 16
+        },
+        {
+          "seconds": 0.39472443299999327,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3846775789999981,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3693924760000016,
+          "steps": 16
+        },
+        {
+          "seconds": 0.41430567399999063,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37537468200000035,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3765017670000077,
+          "steps": 16
+        },
+        {
+          "seconds": 0.38366023400001836,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3787089809999884,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3743498640000098,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3823818959999983,
+          "steps": 16
+        },
+        {
+          "seconds": 0.3641427930000134,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37628327000001605,
+          "steps": 16
+        },
+        {
+          "seconds": 0.37505592799999476,
+          "steps": 16
+        }
+      ],
+      "params": 82697,
+      "last_loss": 0.16928543150424957,
+      "validation": [
+        {
+          "depth": 8,
+          "blank_acc": 0.933219986776235,
+          "board_acc": 0.50390625,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 9880,
+          "solved_boards": 129
+        },
+        {
+          "depth": 16,
+          "blank_acc": 0.9515443468404647,
+          "board_acc": 0.69921875,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 10074,
+          "solved_boards": 179,
+          "right_to_wrong": 0.009412955465587045,
+          "wrong_to_right": 0.40594059405940597,
+          "ruined": 93,
+          "initially_right": 9880,
+          "repaired": 287,
+          "initially_wrong": 707
+        },
+        {
+          "depth": 32,
+          "blank_acc": 0.9500330594124871,
+          "board_acc": 0.71484375,
+          "blanks": 10587,
+          "boards": 256,
+          "correct_blanks": 10058,
+          "solved_boards": 183,
+          "right_to_wrong": 0.011639676113360324,
+          "wrong_to_right": 0.4144271570014144,
+          "ruined": 115,
+          "initially_right": 9880,
+          "repaired": 293,
+          "initially_wrong": 707
+        }
+      ],
+      "eval_seconds": 0.10691655700000524
+    }
+  },
+  "data_seconds": 6.006201635999986,
+  "budget": {
+    "runtime_cu_per_hour_entered": 2.33,
+    "previous_sessions_cu_entered": 0.0,
+    "this_session_seconds": 74.88,
+    "estimated_total_cu": 0.0485,
+    "software_cu_limit": 8.0,
+    "remaining_work_seconds": 6945.12
+  },
+  "forecast": {
+    "by_model": {
+      "plain": {
+        "seconds_per_step": 0.017106373814516095,
+        "timed_steps": 496,
+        "timing_blocks": 31,
+        "hours": 0.0725493287821235,
+        "cu": 0.16903993606234777,
+        "slower_cu": 0.17356988331921733
+      },
+      "full_gate": {
+        "seconds_per_step": 0.023794009475806482,
+        "timed_steps": 496,
+        "timing_blocks": 31,
+        "hours": 0.09927803171034959,
+        "cu": 0.23131781388511452,
+        "slower_cu": 0.23651329908022828
+      },
+      "split_gate": {
+        "seconds_per_step": 0.023798980582661385,
+        "timed_steps": 496,
+        "timing_blocks": 31,
+        "hours": 0.0992565851208203,
+        "cu": 0.23126784333151132,
+        "slower_cu": 0.2360313197926651
+      }
+    },
+    "total": {
+      "hours": 0.2710839456132934,
+      "cu": 0.6316255932789736,
+      "slower_cu": 0.6461145021921106,
+      "cu_plus_20pct": 0.7579507119347683,
+      "includes_one_validation_per_seed": true
+    }
+  }
+}
